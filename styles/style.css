@@ -111,7 +111,7 @@ body {
 
 .container.active .weather-box .box .info-weather,
 .container.active .weather-details .humidity .info-humidity,
-.container.active .weather-details .winds .info-wind {
+.container.active .weather-details .wind .info-wind {
     transform: translateY(0%);
     transition: transform 1s ease;
 } 
@@ -165,7 +165,7 @@ body {
 }
 
 .weather-details .humidity .info-humidity,
-.weather-details .winds .info-wind {
+.weather-details .wind .info-wind {
     transform: translateY(-120%);
     overflow: hidden;
 }
